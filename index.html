@@ -181,20 +181,25 @@
                 <!-- Token Distribution -->
                 <div class="md:w-1/2 mb-8 md:mb-0">
                     <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
-                        <ul class="space-y-4">
-                            <li class="flex justify-between">
-                                <span>Liquidity Burnt</span>
-                                <span>100%</span>
+                        <ul class="space-y-6">
+                            <!-- Item 1 -->
+                            <li class="flex flex-col sm:flex-row justify-between items-start sm:items-center">
+                                <span class="font-medium text-lg">Liquidity Burnt</span>
+                                <span class="text-green-500 text-lg mt-2 sm:mt-0">100%</span>
                             </li>
-                            <li class="flex justify-between">
-                                <span>Token Supply</span>
-                                <span class="text-green-500">999,999,738.35</span>
+                            <!-- Item 2 -->
+                            <li class="flex flex-col sm:flex-row justify-between items-start sm:items-center">
+                                <span class="font-medium text-lg">Token Supply</span>
+                                <span class="text-green-500 text-lg mt-2 sm:mt-0">999,999,738.35</span>
                             </li>
-                            <li class="flex justify-between items-center">
-                                <span>Contract Address</span>
-                                <div class="flex items-center space-x-2">
-                                    <span class="text-green-500">8HfFvgutvKBjdbTqm8h6qZ2VSJ3TxwrZxHT3m34Cpump</span>
-                                    <button onclick="copyAddress()" class="bg-green-500 hover:bg-green-600 text-black px-2 py-1 rounded">Copy</button>
+                            <!-- Item 3 -->
+                            <li class="flex flex-col sm:flex-row justify-between items-start sm:items-center">
+                                <span class="font-medium text-lg">Contract Address</span>
+                                <div class="flex flex-col sm:flex-row items-start sm:items-center mt-2 sm:mt-0">
+                                    <span class="text-green-500 break-all text-lg">8HfFvgutvKBjdbTqm8h6qZ2VSJ3TxwrZxHT3m34Cpump</span>
+                                    <button onclick="copyAddress()" class="bg-green-500 hover:bg-green-600 text-black px-3 py-1 rounded mt-2 sm:mt-0 sm:ml-4 text-sm">
+                                        Copy
+                                    </button>
                                 </div>
                             </li>
                         </ul>
